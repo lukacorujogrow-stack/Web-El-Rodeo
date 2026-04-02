@@ -358,8 +358,8 @@
 
     /* ─── SECTION HEADER ─── */
     .section-header {
-      text-align: center;
-      margin-bottom: 4rem;
+      text-align: left;
+      margin-bottom: 2.5rem;
     }
 
     /* ─── SERVICES GRID ─── */
@@ -1163,12 +1163,14 @@
     .maps-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 1.5rem;
+      gap: 2rem;
       margin-top: 3rem;
     }
 
     .map-card {
       position: relative;
+      display: flex;
+      flex-direction: column;
     }
 
     .map-label {
@@ -1178,13 +1180,15 @@
       text-transform: uppercase;
       color: var(--green);
       margin-bottom: 0.75rem;
+      text-align: left;
     }
 
     .map-frame-wrap {
       position: relative;
       overflow: hidden;
-      height: 280px;
+      height: 440px;
       border: 1px solid rgba(143,168,106,0.15);
+      flex: 1;
     }
 
     .map-frame-wrap iframe {
