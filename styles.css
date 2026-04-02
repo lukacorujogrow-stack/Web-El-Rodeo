@@ -537,6 +537,11 @@
     .rep-card {
       text-align: center;
       padding: 2.5rem 1.5rem;
+      background: rgba(11, 15, 7, 0.78);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(143, 168, 106, 0.12);
+      border-radius: 4px;
     }
 
     .rep-avatar {
